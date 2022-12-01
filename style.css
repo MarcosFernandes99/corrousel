@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS RESET */
+
+body {
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+
+.gallery>div>p {
+    margin-top: 2vh;    
+    color: white;
+}
+
+.gallery:hover {
+    width: 30vw;
+    transition: ease-in;
+    transition-duration: 0.5s;
+    background-color: black;
+}
+
+img {
+    float: left;
+    margin-right: 3vw;
+}
+
+.arrow>span {
+    font-size: 50px;
+    cursor: pointer;
+    color: brown;
+}
+
